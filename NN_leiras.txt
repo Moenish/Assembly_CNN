@@ -1,0 +1,16 @@
+20 pont
+- Retegek: Linearis + Relu + Softmax
+- SSE gyorsitas - elemek osszeszorzasa, osszeadasa
+- Kirajzolni - szamjegy es valoszinuseg
+
+
+50 pont
+- Retegek Conv (3x3, stride 1), Relu, Max(2x2, stride 2), Linear (Softmax nem kell)
+
+V1.
+ - Conv reteg: padding 0 mindig
+ - Egy darab szamjegy felismeres
+ - SSE gyorsitas conv. reteg eseten (szukseges hozza az img2col fuggveny)
+
+V2. 
+ - Tobb szamjegy felismerese vagy padding tetszoleges
